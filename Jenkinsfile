@@ -8,7 +8,8 @@ pipeline {
         }
         stage('start') {
             steps {
-                sh 'npm start'
+                //sh 'npm start'
+                echo 'application should start here'
 
             }
         }
